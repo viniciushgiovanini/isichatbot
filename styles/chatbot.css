@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 99vh;
+    width: 99vw;
+    display: relative;
+    background-image: url("../imgs/chatbotfundo3.jpg");
+}
+
+#header {
+    height: 5vh;
+    
+}
+
+#header .logo {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 250%;
+    
+    
+}
+
+.logo{
+    margin-top: 100px;
+    
+}
+
+#header .logo span {
+    color: black;
+}
+
+
+#iframe-div {
+    height: 80vh;
+    position: relative;
+    bottom: 0;
+}
+
+.txtbot{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 500px) {
+    #header .logo {
+        font-size: 1.5em;
+    }
+    .txtbot{
+        width: 90%;
+        height: 70%;
+    }
+}
